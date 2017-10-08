@@ -1,0 +1,61 @@
+/*for all*/
+body {
+    margin: 0px;
+}
+
+
+
+
+
+/*nav bar*/
+/*http://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    text-align: center; /*https://css-tricks.com/centering-list-items-horizontally-slightly-trickier-than-you-might-think/*/
+}
+
+ul li {
+    /*float: left;*/
+    display: inline-block; /*https://css-tricks.com/centering-list-items-horizontally-slightly-trickier-than-you-might-think/*/
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #708090;
+}
+
+
+
+
+/*centered and resized display*/
+.center * {
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /*http://webdesignerwall.com/tutorials/5-useful-css-tricks-for-responsive-design*/
+    max-width: 100%;
+    height: auto;
+}
+
+/*http://webdesignerwall.com/tutorials/5-useful-css-tricks-for-responsive-design*/
+.album_img {
+    max-width: 500px;
+}
